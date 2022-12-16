@@ -1,7 +1,7 @@
 {
-  "name": "Vishwas's-Homepage",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "Vishwas Saini's website",
+  "description": "Amos Koh's website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "Vishwas Saini",
+  "author": "Amos Koh",
   "license": "MIT",
   "dependencies": {
     "@chakra-ui/icons": "^1.1.7",
@@ -23,6 +23,9 @@
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
     "react-pdf": "^5.7.2",
+    "react-text-cycle": "^0.0.3",
+    "react-text-loop": "^2.3.0",
+    "react-text-loop-next": "^0.0.3",
     "three": "^0.139.2"
   },
   "devDependencies": {

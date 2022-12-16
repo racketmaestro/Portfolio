@@ -24,7 +24,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            Amos Koh
+            AK726
           </Text>
         </LogoBox>
       </a>

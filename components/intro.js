@@ -9,6 +9,7 @@ import {
   Flex,
 } from "@chakra-ui/react";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import Cycletext from "./cycletext";
 
 export default function Intro() {
   return (
@@ -55,9 +56,12 @@ export default function Intro() {
             w={["85vw", "40vw"]}
           >
             <Box color="displayColor" as="span">
-              Year 2 Biomedical Engineering Student at Imperial College London.{" "}
+              Year 2 Biomedical Engineering Student at Imperial College London. An aspiring engineer who enjoys{" "}
+              <Cycletext/>
             </Box>
-            An aspiring engineer who enjoys{" "}
+              
+            
+              
           </Heading>
         </SlideFade>
 
