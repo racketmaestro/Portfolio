@@ -13,12 +13,14 @@ import {
 } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Intro from '../components/intro'
+import AboutMe from '../components/about-me'
 
 
 const Home = () => (
   <Layout>
     <Container>
       <Intro />
+      <AboutMe />
 
     </Container>
   </Layout>

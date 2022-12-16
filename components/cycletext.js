@@ -1,4 +1,5 @@
 import { TextLoop } from 'react-text-loop-next'
+import { Heading, VStack, Text, Flex, Box, Link, Wrap } from '@chakra-ui/react'
 
 const Cycletext = () => {
   return (
@@ -14,5 +15,6 @@ const Cycletext = () => {
     </h2>
   )
 }
+
 
 export default Cycletext
