@@ -1,4 +1,11 @@
-import { Container, Heading, SimpleGrid, Divider, Box, Text } from '@chakra-ui/react'
+import {
+  Container,
+  Heading,
+  SimpleGrid,
+  Divider,
+  Box,
+  Text
+} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
@@ -15,20 +22,12 @@ const Works = () => (
           fontWeight="medium"
           position="relative"
         >
-          Projects
+          Projects ⚙️
+        </Text>
+        <Text>
+          Work in Progress!
         </Text>
       </Box>
-      
-      <Section>
-        <WorkGridItem
-          id="COMS"
-          title="Canteen Management System"
-          thumbnail={thumbComs}
-        >
-          A Lamp Stack webapp, using which the canteen vendor can manage food
-          orders efficiently.
-        </WorkGridItem>
-      </Section>
     </Container>
   </Layout>
 )

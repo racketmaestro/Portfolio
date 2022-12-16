@@ -21,7 +21,6 @@ export default function Intro() {
         >
           <Box position="relative">
             <Text
-              color="displayColor"
               fontSize="3xl"
               fontWeight="medium"
               position="relative"
@@ -32,7 +31,6 @@ export default function Intro() {
           <Heading
             fontSize="6xl"
             lineHeight={"95%"}
-            color="complement"
             letterSpacing={{ sm: "-1.2px", md: "-1.8px" }}
             position="relative"
           >
@@ -47,7 +45,7 @@ export default function Intro() {
           in={true}
           transition={{ enter: { duration: 0.4, delay: 0.9 } }}
         >
-          <Heading
+          <Heading 
             color="textSecondary"
             fontSize="4xl"
             fontWeight="medium"
@@ -55,13 +53,8 @@ export default function Intro() {
             letterSpacing="-1.6px"
             w={["85vw", "40vw"]}
           >
-            <Box color="displayColor" as="span">
-              Year 2 Biomedical Engineering Student at Imperial College London. An aspiring engineer who enjoys{" "}
-              <Cycletext/>
-            </Box>
-              
+              <Cycletext />
             
-              
           </Heading>
         </SlideFade>
 
