@@ -1,5 +1,5 @@
 import { TextLoop } from "react-text-loop-next";
-
+    
 
 const Cycletext = () => {
   return (
