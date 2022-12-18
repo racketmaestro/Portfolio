@@ -11,32 +11,35 @@ const Project = () => (
                 Lego recognition <Badge>2022</Badge>
             </Title>
             <WorkImage
-                src="/images/works/rechat-eyecatcher.png"
+                src="/images/works/legothumbnail.jpg"
                 alt="ReChat"
             />
             <P>
-                A beautified dark mode web based messenger application based on ChatEngine.io
-                and written in ReactJS
+                Wrote Python scripts on RaspberryPi to capture and crop images using object motion detection and bounding
+                box image processing, creating a Lego pieces database containing 6000 images across 7 classes.
                 <br/><br/>
-                Utilises Google and Facebook accounts for signing up/login. It uses Firebase
-                to store backend data. Chat features include single or group chats, full 
-                support for media and formatting as well as a clean material design
+                Built and trained image classification CNN model for automated Lego pieces sorter using Tensorflow, achieving
+                93% testing accuracy. 
+                <br/><br/>  
+                Integrated model with livestream from RaspberryPi camera to classify lego pieces in realtime.
+
+                
             </P>
             <br/>
             <List>
                 <ListItem>
                     <Meta>Link</Meta>
-                    <Link href="https://github.com/Aimireal/Rechat">
-                        https://github.com/Aimireal/Rechat
+                    <Link href="https://github.com/racketmaestro/Lego-motion-detection-and-image-recognition-ak-ag">
+                    Github  Repository
                     </Link> <ExternalLinkIcon></ExternalLinkIcon>
                 </ListItem>
                 <ListItem>
                     <Meta>Platform</Meta>
-                    <Link>Web</Link>
+                    <Link>RaspberryPi</Link>
                 </ListItem>
                 <ListItem>
                     <Meta>Stack</Meta>
-                    <Link>JavaScript | React | Firebase</Link>
+                    <Link>Python | Tensorflow | OpenCV</Link>
                 </ListItem>
             </List>
             <br/>

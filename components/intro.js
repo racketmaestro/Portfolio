@@ -29,7 +29,7 @@ export default function Intro() {
             </Text>
           </Box>
           <Heading
-            fontSize="6xl"
+            fontSize="5xl"
             lineHeight={"95%"}
             letterSpacing={{ sm: "-1.2px", md: "-1.8px" }}
             position="relative"

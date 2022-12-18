@@ -8,7 +8,7 @@ import {
 } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 
-const Works = () => (
+const Experience = () => (
   <Layout title="Experience">
     <Container>
     <Heading as="h3" fontSize={40} mt={10}>
@@ -18,5 +18,5 @@ const Works = () => (
   </Layout>
 )
 
-export default Works
+export default Experience
 export { getServerSideProps } from '../components/chakra'
