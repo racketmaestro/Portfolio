@@ -11,9 +11,10 @@ import Layout from '../components/layouts/article'
 const Experience = () => (
   <Layout title="Experience">
     <Container>
-    <Heading as="h3" fontSize={40} mt={10}>
-                Experience
-            </Heading>
+      <Heading as="h3" fontSize={40} mt={10}>
+        Experience.
+      </Heading>
+      <Text>Work in progress!</Text>
     </Container>
   </Layout>
 )
