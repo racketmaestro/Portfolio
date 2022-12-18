@@ -25,7 +25,7 @@ export default function Intro() {
               fontWeight="medium"
               position="relative"
             >
-              Hey there, I'm
+              Hey there 👋, I'm
             </Text>
           </Box>
           <Heading
