@@ -15,6 +15,7 @@ import {
 import Layout from '../components/layouts/article'
 import Intro from '../components/intro'
 import AboutMe from '../components/about-me'
+import Contact from '../components/contact'
 
 
 const Home = () => (
@@ -23,7 +24,7 @@ const Home = () => (
       
       <Intro />
       <AboutMe />
-  
+    
     
     </Container>
   </Layout>

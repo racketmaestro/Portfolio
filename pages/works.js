@@ -14,7 +14,7 @@ const Works = () => (
 
       <Section delay={0.2}>
         <Divider my={6} />
-        <Heading as="h3" fontSize={20} mb={4}>
+        <Heading as="h3" fontSize='2xl' mb={4}>
           Internship Projects
         </Heading>
       </Section>
@@ -34,7 +34,7 @@ const Works = () => (
 
       <Section delay={0.2}>
         <Divider my={6} />
-        <Heading as="h3" fontSize={20} mb={4}>
+        <Heading as="h3" fontSize='2xl' mb={4}>
           University Projects
         </Heading>
       </Section>
