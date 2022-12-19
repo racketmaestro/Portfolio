@@ -1,39 +1,58 @@
-import { Container, Heading, SimpleGrid, Divider} from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
+import ARImg from '../public/images/works/ar-project-thumbnail.jpg'
 import LegoImg from '../public/images/works/legothumbnail.jpg'
 
 const Works = () => (
-    <Layout title="Works">
-        <Container>
-            <Heading as="h3" fontSize={40} mt={10}>
-                Projects
-            </Heading>
+  <Layout title="Works">
+    <Container>
+      <Heading as="h3" fontSize={40} mt={10}>
+        Projects
+      </Heading>
 
-            <Section delay={0.2}>
-                <Divider my={6} />
-                <Heading as="h3" fontSize={20} mb={4}>
-                    Internship Projects
-                </Heading>
-            </Section>
+      <Section delay={0.2}>
+        <Divider my={6} />
+        <Heading as="h3" fontSize={20} mb={4}>
+          Internship Projects
+        </Heading>
+      </Section>
 
-            <SimpleGrid columns={[1, 1, 1]} gap={6}>
-                <Section delay={0.3}>
-                    <WorkGridItem id="lego" title="Lego motion detection and classification" thumbnail={LegoImg}>
-                        Machine Learning CNN model built on RaspberryPi during my internship at Nullspace Robotics, Singapore
-                    </WorkGridItem>
-                </Section>
-            </SimpleGrid>
+      <SimpleGrid columns={[1, 1, 1]} gap={6}>
+        <Section delay={0.3}>
+          <WorkGridItem
+            id="lego"
+            title="Lego motion detection and classification"
+            thumbnail={LegoImg}
+          >
+            Machine Learning CNN model built on RaspberryPi during my internship
+            at Nullspace Robotics, Singapore
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
 
-            <Section delay={0.2}>
-                <Divider my={6} />
-                <Heading as="h3" fontSize={20} mb={4}>
-                    University Projects
-                </Heading>
-            </Section>
-        </Container>
-    </Layout>
+      <Section delay={0.2}>
+        <Divider my={6} />
+        <Heading as="h3" fontSize={20} mb={4}>
+          University Projects
+        </Heading>
+      </Section>
+
+      <SimpleGrid columns={[1, 1, 1]} gap={6}>
+        <Section delay={0.3}>
+          <WorkGridItem
+            id="ar-project"
+            title="Augmented Reality in Unity"
+            thumbnail={ARImg}
+          >
+            Building AR game in Unity to enhance learning experience for children with cerebral palsy.
+            In collaboration with PACE Centre.
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
+    </Container>
+  </Layout>
 )
 
 export default Works

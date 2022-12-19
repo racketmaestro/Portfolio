@@ -8,7 +8,7 @@ export default function AboutMe() {
         <Box w={["85vw", "42.5vw"]}>
           <VStack spacing={4} justifyContent="center" alignItems="flex-start">
             <Heading color={"displayColor"}>About Me</Heading>
-            <Text fontSize="display3" color="textSecondary">
+            <Text fontSize="rem1" color="textSecondary">
               Hi! I'm{" "}
               <Link fontSize="display3" color="#77B4D4">
                 Amos
