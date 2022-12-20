@@ -1,0 +1,66 @@
+/* body {
+  background: #b86868;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+} */
+
+.title {
+  font-size: xx-large;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+h3 {
+  padding-top: 0.25em;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(41, 39, 122, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 1em 1em !important;
+  width : 100%;
+}
+
+.date {
+  color: rgb(17, 64, 67);
+}
+
+#description {
+  margin: 1em 0 0em 0;
+  color: black;
+  font-size: large 
+  
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.5em 0.5em;
+  border-radius: 5px;
+  color: white;
+}
+
+.workButton {
+  background-color: #18322b;
+}
+
+.workButton:hover {
+  background-color: #0ac593;
+}
+
+.schoolButton {
+  background-color: #f9c74f;
+}
+
+.schoolButton:hover {
+  background-color: #f3bc3c;
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
+  }
+}

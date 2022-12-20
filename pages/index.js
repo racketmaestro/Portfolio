@@ -17,7 +17,6 @@ import Intro from '../components/intro'
 import AboutMe from '../components/about-me'
 import Contact from '../components/contact'
 
-
 const Home = () => (
   <Layout>
     <Container>
@@ -25,7 +24,7 @@ const Home = () => (
       <Intro />
       <Contact />
       <AboutMe />
-      
+
     
     </Container>
   </Layout>
