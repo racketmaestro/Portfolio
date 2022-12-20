@@ -14,8 +14,8 @@ import 'react-vertical-timeline-component/style.min.css'
 export { getServerSideProps } from '../components/chakra'
 
 function BioTimeline() {
-  let workIconStyles = { background: '#06D6A0' }
-  let schoolIconStyles = { background: '#f9c74f' }
+  let workIconStyles = { background: '#369FD0' }
+  let schoolIconStyles = { background: '#FDBA69' }
 
   return (
     <div>
@@ -34,34 +34,29 @@ function BioTimeline() {
               dateClassName="date"
               iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
               icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
-              contentStyle={{ background: '#E3F6F9', color: '#D9F4F9' }}
+              contentStyle={{ background: '#E2F6FE' }}
               contentArrowStyle={{
-                borderRight: '7px solid #E3F6F9'
+                borderRight: '7px solid #E2F6FE'
               }}
             >
-              <Heading
-                fontSize="sm"
-                className="vertical-timeline-element-title"
-              >
-                {element.title}
-              </Heading>
-              <Heading
-                fontSize="sm"
-                className="vertical-timeline-element-subtitle"
-              >
+              <Heading>{element.title}</Heading>
+              <p className="vertical-timeline-element-subtitle">
                 {element.location}
-              </Heading>
-              <Text pb = {10} id="description">{element.description}</Text>
-              {/* {showButton && (
+              </p>
+              <p className="vertical-timeline-element-description">
+                {element.description}
+              </p>
+              {showButton && (
                 <a
+                  target="_blank"
                   className={`button ${
                     isWorkIcon ? 'workButton' : 'schoolButton'
                   }`}
-                  href="/"
+                  href={element.link}
                 >
                   {element.buttonText}
                 </a>
-              )} */}
+              )}
             </VerticalTimelineElement>
           )
         })}
