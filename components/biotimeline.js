@@ -39,14 +39,20 @@ function BioTimeline() {
                 borderRight: '7px solid #E2F6FE'
               }}
             >
-              <Heading>{element.title}</Heading>
-              <p className="vertical-timeline-element-subtitle">
+              <h2>
+                <b>{element.title}</b>
+              </h2>
+              <a
+                target="_blank"
+                href={element.link}
+                className="vertical-timeline-element-subtitle"
+              >
                 {element.location}
-              </p>
-              <p className="vertical-timeline-element-description">
+              </a>
+              <h1 className="vertical-timeline-element-description">
                 {element.description}
-              </p>
-              {showButton && (
+              </h1>
+              {/* {showButton && (
                 <a
                   target="_blank"
                   className={`button ${
@@ -56,7 +62,7 @@ function BioTimeline() {
                 >
                   {element.buttonText}
                 </a>
-              )}
+              )} */}
             </VerticalTimelineElement>
           )
         })}

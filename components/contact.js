@@ -12,13 +12,17 @@ import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa'
 
 export default function Contact() {
   return (
-    <Stack pt={10} spacing={10} alignItems="start">
+    <Stack pt={10} spacing={10} alignItems="flex-start">
       <SlideFade
         in={true}
         transition={{ enter: { duration: 0.4, delay: 1.0 } }}
       >
         <Stack isInline spacing={5}>
-          <Link href="https://github.com/racketmaestro" isExternal>
+          <Link
+            target="_blank"
+            href="https://github.com/racketmaestro"
+            isExternal
+          >
             <Button
               leftIcon={<FaGithub color="#5F99FF" />}
               position="static"
@@ -29,7 +33,11 @@ export default function Contact() {
               Github
             </Button>
           </Link>
-          <Link href="https://linkedin.com/in/ak726/" isExternal>
+          <Link
+            target="_blank"
+            href="https://linkedin.com/in/ak726/"
+            isExternal
+          >
             <Button
               leftIcon={<FaLinkedin color="#5F99FF" />}
               position="static"
@@ -40,7 +48,11 @@ export default function Contact() {
               LinkedIn
             </Button>
           </Link>
-          <Link href="mailto:amos.koh21@imperial.ac.uk" isExternal>
+          <Link
+            target="_blank"
+            href="mailto:amos.koh21@imperial.ac.uk"
+            isExternal
+          >
             <Button
               leftIcon={<FaEnvelope fill="#5F99FF" />}
               transition="0.3s"
