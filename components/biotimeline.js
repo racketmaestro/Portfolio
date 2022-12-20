@@ -39,7 +39,7 @@ function BioTimeline() {
                 borderRight: '7px solid #E2F6FE'
               }}
             >
-              <h2>
+              <h2 font-weight = {100}>
                 <b>{element.title}</b>
               </h2>
               <a

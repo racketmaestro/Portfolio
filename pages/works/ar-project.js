@@ -5,7 +5,6 @@ import P from '../../components/paragraphs'
 import Layout from '../../components/layouts/article'
 export { getServerSideProps } from '../../components/chakra'
 
-
 const Project = () => (
   <Layout>
     <Container>
@@ -17,20 +16,21 @@ const Project = () => (
         Work in progress!
         <br />
         <br />
-        
         <br />
         <br />
-        
       </P>
       <br />
       <List>
         <ListItem>
           <Meta>Link</Meta>
-          <Link href="https://github.com/racketmaestro/Augmented-Reality-Project">
+          <Link
+            target="_blank"
+            href="https://github.com/racketmaestro/Augmented-Reality-Project"
+          >
             Github Repository
           </Link>{' '}
           <ExternalLinkIcon></ExternalLinkIcon>
-        </ListItem> 
+        </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
           <Link>C# | Unity </Link>

@@ -5,7 +5,6 @@ import P from '../../components/paragraphs'
 import Layout from '../../components/layouts/article'
 export { getServerSideProps } from '../../components/chakra'
 
-
 const Project = () => (
   <Layout>
     <Container>
@@ -30,7 +29,10 @@ const Project = () => (
       <List>
         <ListItem>
           <Meta>Link</Meta>
-          <Link href="https://github.com/racketmaestro/Lego-motion-detection-and-image-recognition-ak-ag">
+          <Link
+            target="_blank"
+            href="https://github.com/racketmaestro/Lego-motion-detection-and-image-recognition-ak-ag"
+          >
             Github Repository
           </Link>{' '}
           <ExternalLinkIcon></ExternalLinkIcon>
@@ -45,7 +47,7 @@ const Project = () => (
         </ListItem>
       </List>
       <br />
-      <WorkImage src="/images/works/rechat.png" />
+      {/* <WorkImage src="/images/works/rechat.png" /> */}
     </Container>
   </Layout>
 )
