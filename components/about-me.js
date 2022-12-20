@@ -3,8 +3,7 @@ import React, { useEffect, useState } from 'react'
 
 export default function AboutMe() {
   return (
-    <Flex alignItems="center" justifyContent="center">
-      <Wrap spacing={['100px', '200px']} justify={'center'} align="center">
+      <Wrap spacing={['100px', '200px']} justify={'center'} align="center" pt ={10}>
         <VStack spacing={4} justifyContent="center" alignItems="flex-start">
           <Heading color={'displayColor'}>About Me</Heading>
           <Text fontSize="lg" color="textSecondary">
@@ -18,8 +17,8 @@ export default function AboutMe() {
             Forces as a Reconnaissance commander in 16C4I Battalion.
             <br />
             <br /> As a Bioengineering student, I have picked up skills in
-            various engineering discplines, including but not limited to
-            mechanics, electronics, computing, design engineering and medical
+            various engineering disciplines, including but not limited to
+            mechanics, electronics, software, design engineering and medical
             science. <br />
             <br /> I proactively develop my software skills and aspire to
             augment my engineering projects with smart software. Currently, I am
@@ -28,6 +27,5 @@ export default function AboutMe() {
           </Text>
         </VStack>
       </Wrap>
-    </Flex>
   )
 }

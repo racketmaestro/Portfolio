@@ -13,13 +13,12 @@ import Contact from './contact'
 
 export default function Intro() {
   return (
-    <Flex p={10} w="full" alignItems="center" justifyContent="center">
-      <Stack spacing={10} justifyContent="flex-start" alignItems="flex-start">
+      <Stack pt = {10}spacing={5} justifyContent="flex-start" alignItems="flex-start">
         <SlideFade
           in={true}
           transition={{ enter: { duration: 0.4, delay: 0.7 } }}
         >
-          <Heading fontSize="3xl" fontWeight="medium" >
+          <Heading fontSize="3xl" fontWeight="medium">
             Hey there 👋, I'm
           </Heading>
 
@@ -38,9 +37,8 @@ export default function Intro() {
           transition={{ enter: { duration: 0.4, delay: 0.9 } }}
         >
           <Cycletext />
-          <Contact /> 
         </SlideFade>
+        
       </Stack>
-    </Flex>
   )
 }

@@ -23,8 +23,9 @@ const Home = () => (
     <Container>
       
       <Intro />
+      <Contact />
       <AboutMe />
-    
+      
     
     </Container>
   </Layout>
