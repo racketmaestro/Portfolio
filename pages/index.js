@@ -20,12 +20,9 @@ import Contact from '../components/contact'
 const Home = () => (
   <Layout>
     <Container>
-      
       <Intro />
       <Contact />
       <AboutMe />
-
-    
     </Container>
   </Layout>
 )
