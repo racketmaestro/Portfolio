@@ -16,12 +16,14 @@ import Layout from '../components/layouts/article'
 import Intro from '../components/intro'
 import AboutMe from '../components/about-me'
 import Contact from '../components/contact'
+import AvatarWave from '../components/avatarwave'
 
 const Home = () => (
   <Layout>
     <Container>
       <Intro />
       <Contact />
+      <AvatarWave />
       <AboutMe />
     </Container>
   </Layout>
