@@ -13,8 +13,8 @@ export default function AvatarWave() {
           camera={{ position: [0.25, 0, 12.25], fov: 12 }}
           style={{
             backgroundColor: 'dark',
-            width: '30vw',
-            height: '50vh'
+            width: '100%',
+            height: '40vh'
           }}
         >
           <ambientLight intensity={1.25} />
