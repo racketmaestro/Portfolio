@@ -1,4 +1,4 @@
-import { Container, Badge, Link, List, ListItem, Flex, Stack} from '@chakra-ui/react'
+import { Container, Badge, Link, Spacer, Flex, Stack} from '@chakra-ui/react'
 
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
@@ -25,6 +25,7 @@ const Project = () => (
 
       <Flex>
         <Meta>Link</Meta>
+        <Spacer />
         <Link
           target="_blank"
           href="https://github.com/racketmaestro/Augmented-Reality-Project">
@@ -34,10 +35,12 @@ const Project = () => (
       </Flex>
       <Flex pt={5}>
         <Meta>Platform</Meta>
+        <Spacer />
         <Avatar src="/icons/android-icon.png" title="Android" />
       </Flex>
       <Flex pt={5}>
         <Meta>Stack</Meta>
+        <Spacer />
         <Stack direction="row" spacing={2}>
           <Avatar src="/icons/python-icon-2.png" title="Python" />
           <Avatar src="/icons/unity-icon-2.png" title="Unity" />
