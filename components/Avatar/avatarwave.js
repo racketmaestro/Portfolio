@@ -2,7 +2,7 @@ import React, { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
 import { AvatarModel } from './Wave'
-import Layout from './layouts/article'
+import Layout from '../layouts/article'
 import { Container } from '@chakra-ui/react'
 
 export default function AvatarWave() {

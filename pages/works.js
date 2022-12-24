@@ -51,6 +51,13 @@ const Works = () => (
           </WorkGridItem>
         </Section>
       </SimpleGrid>
+
+      <Section delay={0.2}>
+        <Divider my={6} />
+        <Heading as="h3" fontSize='2xl' mb={4}>
+          Personal Projects - Work in progress!
+        </Heading>
+      </Section>
     </Container>
   </Layout>
 )

@@ -7,7 +7,7 @@ import {
   Text
 } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
-import BioTimeline from '../components/biotimeline'
+import BioTimeline from '../components/Timeline/biotimeline'
 const Experience = () => {
   return (
     <Layout title="Experience">

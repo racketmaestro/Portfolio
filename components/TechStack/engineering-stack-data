@@ -1,0 +1,25 @@
+export default function engineeringSkillsList() {
+  return [
+    {
+      name: 'RaspberryPi',
+      description: 'Microprocessor',
+      image: '/icons/raspberrypi-icon.png'
+    },
+    {
+        name: 'Arduino',
+        description: 'Microcontroller',
+        image: '/icons/arduino-icon.png'
+    },
+    {
+      name: 'SolidWorks',
+      description: '3D CAD',
+      image: '/icons/solidworks-icon.png'
+    },
+    {
+      name: 'Altium',
+      description: 'PCB Design',
+      image:'/icons/pcb-icon.png'
+
+    }
+  ]
+}

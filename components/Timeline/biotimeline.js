@@ -3,7 +3,7 @@ import WorkIcon from '@mui/icons-material/Work'
 import SchoolIcon from '@material-ui/icons/School'
 import { Text, Container, Heading } from '@chakra-ui/layout'
 import timelineElements from './timelineElements'
-import Layout from './layouts/article'
+import Layout from '../layouts/article'
 import { Button } from '@chakra-ui/button'
 import {
   VerticalTimeline,
@@ -11,7 +11,8 @@ import {
 } from 'react-vertical-timeline-component'
 
 import 'react-vertical-timeline-component/style.min.css'
-export { getServerSideProps } from '../components/chakra'
+import { useColorModeValue } from '@chakra-ui/color-mode'
+export { getServerSideProps } from '../chakra'
 
 function BioTimeline() {
   let workIconStyles = { background: '#369FD0' }
@@ -38,6 +39,7 @@ function BioTimeline() {
               contentArrowStyle={{
                 borderRight: '7px solid #E2F6FE'
               }}
+              
             >
               <h2 font-weight = {100}>
                 <b>{element.title}</b>
