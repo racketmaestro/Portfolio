@@ -8,7 +8,7 @@ import { Container } from '@chakra-ui/react'
 export default function AvatarWave() {
   return (
     <Layout>
-      <Container>
+      <Container> 
         <Canvas
           camera={{ position: [0.25, 0, 12.25], fov: 12 }}
           style={{
