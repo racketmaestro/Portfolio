@@ -21,7 +21,7 @@ export default function AvatarWave() {
           <ambientLight intensity={0.1} />
           <directionalLight intensity={0.4} />
           <Suspense fallback={null}>
-            <AvatarModel position={[-0.3, -0.9, 0]} />
+            <AvatarModel position={[-0.3, -1.2, 0]} />
           </Suspense>
           <OrbitControls />
         </Canvas>

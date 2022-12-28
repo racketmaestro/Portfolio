@@ -12,12 +12,12 @@ import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa'
 
 export default function Contact() {
   return (
-    <Stack pt={10} spacing={10} alignItems="flex-start">
+    <Stack pt={8} spacing={5} alignItems="flex-start" >
       <SlideFade
         in={true}
         transition={{ enter: { duration: 0.4, delay: 1.0 } }}
       >
-        <Stack isInline spacing={5}>
+        <Stack isInline spacing={3}>
           <Link
             target="_blank"
             href="https://github.com/racketmaestro"

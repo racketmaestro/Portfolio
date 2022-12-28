@@ -4,6 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import ARImg from '../public/images/works/ar-project-thumbnail.jpg'
 import LegoImg from '../public/images/works/legothumbnail.jpg'
+import WebImg from '../public/images/works/portfolio-website.jpg'
 
 const Works = () => (
   <Layout title="Works">
@@ -55,9 +56,21 @@ const Works = () => (
       <Section delay={0.2}>
         <Divider my={6} />
         <Heading as="h3" fontSize='2xl' mb={4}>
-          Personal Projects - Work in progress!
+          Personal Projects
         </Heading>
       </Section>
+
+      <SimpleGrid columns={[1, 1, 1]} gap={6}>
+        <Section delay={0.3}>
+          <WorkGridItem
+            id="portfolio-website"
+            title="React Portfolio Website"
+            thumbnail={WebImg}
+          >
+            This website you are browsing through right now! A personal portfolio project to showcase my works and experience.
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
     </Container>
   </Layout>
 )

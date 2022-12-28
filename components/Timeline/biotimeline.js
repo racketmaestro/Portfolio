@@ -48,10 +48,10 @@ function BioTimeline() {
                   href={element.link}
                   className="vertical-timeline-element-subtitle"
                   justifyContent="flex-end"
+                  color = "#0C3C65"
                 >
                   {element.location}
                 </Link>
-                {/* <Avatar src="/icons/raspberrypi-icon.png" title="RaspberryPi" /> */}
                 <h1 className="vertical-timeline-element-description">
                   {element.description}
                 </h1>
