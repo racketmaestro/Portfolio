@@ -5,7 +5,7 @@ import Section from '../components/section'
 import EngineeringStack from '../components/TechStack/engineering-stack'
 
 const Stack = () => (
-  <Layout>
+  <Layout title = 'Stack'>
     <Container>
       <Heading as="h3" fontSize={40} mt={10}>
         Tech Stack

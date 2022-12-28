@@ -1,10 +1,9 @@
 // import "../pages/myTimeline.css";
 import WorkIcon from '@mui/icons-material/Work'
 import SchoolIcon from '@material-ui/icons/School'
-import { Text, Container, Heading } from '@chakra-ui/layout'
+import { Flex, Text, VStack, Link } from '@chakra-ui/layout'
+import { Avatar } from '@material-ui/core'
 import timelineElements from './timelineElements'
-import Layout from '../layouts/article'
-import { Button } from '@chakra-ui/button'
 import {
   VerticalTimeline,
   VerticalTimelineElement
@@ -39,32 +38,24 @@ function BioTimeline() {
               contentArrowStyle={{
                 borderRight: '7px solid #E2F6FE'
               }}
-              
             >
-              <h2 font-weight = {100}>
-                <b>{element.title}</b>
-              </h2>
-              <a
-                target="_blank"
-                href={element.link}
-                className="vertical-timeline-element-subtitle"
-              >
-                {element.location}
-              </a>
-              <h1 className="vertical-timeline-element-description">
-                {element.description}
-              </h1>
-              {/* {showButton && (
-                <a
+              <VStack align="left">
+                <Text as="h2" font-weight={100}>
+                  <b>{element.title}</b>
+                </Text>
+                <Link
                   target="_blank"
-                  className={`button ${
-                    isWorkIcon ? 'workButton' : 'schoolButton'
-                  }`}
                   href={element.link}
+                  className="vertical-timeline-element-subtitle"
+                  justifyContent="flex-end"
                 >
-                  {element.buttonText}
-                </a>
-              )} */}
+                  {element.location}
+                </Link>
+                {/* <Avatar src="/icons/raspberrypi-icon.png" title="RaspberryPi" /> */}
+                <h1 className="vertical-timeline-element-description">
+                  {element.description}
+                </h1>
+              </VStack>
             </VerticalTimelineElement>
           )
         })}
