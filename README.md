@@ -1,7 +1,9 @@
 ## Pages
 - **Home** - Introduction and personal Avatar
 - **Projects** - Various projects I have done
+- **Experience** - My Timeline
 - **Tech Stack** - List of technologies I am familiar with!
+
 
 ## Built with
 - [NextJS](https://nextjs.org/)
