@@ -16,6 +16,7 @@ export { getServerSideProps } from '../../components/chakra'
 import { Avatar } from '@material-ui/core'
 import { Stack } from '@chakra-ui/react'
 import {SiAccenture} from "react-icons/si"
+import { SlideFade } from '@chakra-ui/react'
 
 const Project = () => (
   <Layout>

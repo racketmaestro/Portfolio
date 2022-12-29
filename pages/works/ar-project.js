@@ -1,11 +1,11 @@
 import { Container, Badge, Link, Spacer, Flex, Stack} from '@chakra-ui/react'
-
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraphs'
 import Layout from '../../components/layouts/article'
 export { getServerSideProps } from '../../components/chakra'
 import { Avatar } from '@material-ui/core'
+import { SlideFade } from '@chakra-ui/react'
 
 const Project = () => (
   <Layout>
