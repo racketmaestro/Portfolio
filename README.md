@@ -2,7 +2,7 @@
 Built this react website to showcase my works and experience, as well as pick up skills in Frontend Development!
 
 <div style="display:flex;flex-direction:row; justify-content; space-between;width:100%">
-  <h3> <a  target="_blank" href="https://ak726.vercel.app/"> Run Resume Live </a></h3>  
+  <h3>:rocket: <a target="_blank" href="https://ak726.vercel.app/"> Check it out </a></h3>  
 </div>
 
 
@@ -10,7 +10,7 @@ Built this react website to showcase my works and experience, as well as pick up
 - **Home** - Introduction and personal Avatar
 - **Projects** - Various projects I have done
 - **Experience** - My Timeline
-- **Tech Stack** - List of technologies I am familiar with!
+- **Tech Stack** - My war weapons
 
 
 ## Built with
