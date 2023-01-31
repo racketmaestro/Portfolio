@@ -14,7 +14,7 @@ export default function AboutMe() {
             . I was born and raised in Singapore, and am currently studying in
             London, United Kingdom. Before university, I completed my A Levels in
             Raffles Institution, Singapore, and served in the Singapore Armed
-            Forces as a Reconnaissance commander in 16C4I Battalion.
+            Forces as a Reconnaissance commander in 16C4I Battalion. 
             <br />
             <br /> As a Bioengineering student, I have picked up skills in
             various engineering disciplines, including but not limited to

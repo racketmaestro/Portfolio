@@ -18,6 +18,8 @@ const Project = () => (
         Work in progress!
         <br />
         <br />
+        Building an animal themed AR game, together with a team of 9 other students,
+        that empowers inclusive learning among children with learning/physical disabilities.
         <br />
         <br />
       </P>
@@ -28,7 +30,7 @@ const Project = () => (
         <Spacer />
         <Link
           target="_blank"
-          href="https://github.com/racketmaestro/Augmented-Reality-Project">
+          href="https://github.com/racketmaestro/DAPP-Animal-Game">
           Github Repository
         </Link>
         <ExternalLinkIcon></ExternalLinkIcon>
@@ -42,7 +44,7 @@ const Project = () => (
         <Meta>Stack</Meta>
         <Spacer />
         <Stack direction="row" spacing={2}>
-          <Avatar src="/icons/python-icon-2.png" title="Python" />
+          <Avatar src="/icons/c-sharp-icon.png" title="C#" />
           <Avatar src="/icons/unity-icon-2.png" title="Unity" />
         </Stack>
       </Flex>

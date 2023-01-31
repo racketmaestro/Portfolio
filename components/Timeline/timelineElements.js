@@ -1,5 +1,15 @@
 let timelineElements = [
   {
+    id: 0,
+    title: "Incoming Summer Intern",
+    location: "Health Data Insight, Cambridge, United Kingdom",
+    description: "",
+    buttonText: "",
+    link: "https://healthdatainsight.org.uk/",
+    date: "Jul 2023 - Sep 2023",
+    icon: "Work",
+  },
+  {
     id: 1,
     title: "MEng Biomedical Engineering Undergraduate",
     location: "Imperial College London",

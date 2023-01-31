@@ -28,7 +28,8 @@ const Project = () => (
       <P>
         <br />
         <br />
-        Work in progress!
+        I built this website to showcase my experience, 
+        education and various projects! It was fun building this website and developing my Frontend skills
         <br />
         <br />
         Built with: 

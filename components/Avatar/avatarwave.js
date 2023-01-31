@@ -23,7 +23,7 @@ export default function AvatarWave() {
           <Suspense fallback={null}>
             <AvatarModel position={[-0.3, -1.2, 0]} />
           </Suspense>
-          <OrbitControls />
+          <OrbitControls enableZoom={true}/>
         </Canvas>
       </Container>
     </Layout>
