@@ -28,11 +28,17 @@ const Project = () => (
       <P>
         <br />
         <br />
-        I built this website to showcase my experience, 
-        education and various projects! It was fun building this website and developing my Frontend skills
+        Building my personal portfolio website was a project that I am proud of undertaking.
+        I wanted to showcase my experience, education, and projects in a way that would be interactive and visually appealing. 
+        The process allowed me to develop my Frontend skills, as I worked with technologies such as React, ThreeJS, and JavaScript.
+         <br />
+        <br />
+        I faced challenges along the way, but I embraced them as opportunities for learning and growth. 
+        The result is a functional and user-friendly website that I am proud of and that demonstrates my abilities as a developer.
         <br />
         <br />
-        Built with: 
+        
+        This webstie was built with: 
         <br /><br />
         <List spacing={2}>
           <ListItem>

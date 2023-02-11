@@ -15,13 +15,23 @@ const Project = () => (
       </Title>
       <WorkImage src="/images/works/ar-project-thumbnail.jpg" alt="ar" />
       <P>
-        Work in progress!
+        Work in progress! This project is expected to be completed in June 2023
         <br />
         <br />
-        Building an animal themed AR game, together with a team of 9 other students,
-        that empowers inclusive learning among children with learning/physical disabilities.
+        As the Lead Developer of a 10-member team in my second-year design engineering project, 
+        I had the privilege of working in collaboration with a charity that supports children with neurodisabilities. Our goal was to develop an
+        Augmented Reality Game that would empower inclusive learning and enhance the motor and visual skills of these children.
         <br />
         <br />
+        To achieve this, I learnt how to use Unity Engine and Vuforia, an industry-leading augmented reality SDK, 
+        to create an interactive and immersive game experience. 
+        I wrote efficient C# scripts to program the game and streamline its development process, 
+        ultimately resulting in significant time savings. 
+        As the Lead Developer, I coordinated and supervised
+        various aspects of the game development, such as 3D modelling, sound effects, and UI/UX. 
+        This helped ensure seamless integration of all team members' work, resulting in a cohesive and polished product.
+    
+
       </P>
       <br />
 

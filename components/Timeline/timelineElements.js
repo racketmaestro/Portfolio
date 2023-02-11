@@ -14,7 +14,7 @@ let timelineElements = [
     title: "MEng Biomedical Engineering Undergraduate",
     location: "Imperial College London",
     description:
-      "Relevant Coursework: Programming, Mathematics, Signals and Control, Electronics and Electromagnetics,Fluids and Solids Mechanics. Current Grade: 79.25%",
+      "Current Grade: 79.25%",
     buttonText: "",
     link: "https://www.imperial.ac.uk/study/courses/undergraduate/biomedical-engineering/",
     date: "Oct 2021 - Present",
@@ -25,7 +25,7 @@ let timelineElements = [
     title: "Intern",
     location: "Nullspace Robotics, Singapore",
     description:
-      "Conducted robotics and programming workshops for young students. Built and trained a Machine Learning model to classify Lego pieces on the RaspberryPi, as part of the software needed for an automated Lego sorter.",
+      "During my time here, I conducted robotics and programming workshops for young students. I also built and trained a Machine Learning model to classify Lego pieces on the RaspberryPi, as part of the software needed for an automated Lego sorter.",
     buttonText: "Company Website",
     link: "https://sg.nullspace.co/",
     date: "Jul 2022 - Sep 2022",
@@ -36,7 +36,7 @@ let timelineElements = [
     title: "Project Intern",
     location: "Boston Scientific, Singapore",
     description:
-      "Identified and presented report about essential CRM analytics data, increasing efficiency and visibility in Customer Care management. Liaised with Supply Chain supervisors in ASEAN to document and map out country-specific order management systems, identifying pain points in preparation for automated solution.",
+      "During my 6-month internship, I collaborated with the Customer Care department to identify and present a report on critical CRM analytics data. I also worked with ASEAN Supply Chain supervisors to document country-specific order management systems and identify pain points for future automation.",
     buttonText: "Company Website",
     link: "https://www.bostonscientific.com/en-US/Home.html",
     date: "Feb 2021 - Aug 2021",
@@ -47,7 +47,7 @@ let timelineElements = [
     title: "Reconnaissance Commander",
     location: "Singapore Armed Forces",
     description:
-      "Graduated top 5 out of >50 cadets in the Reconnaissance Commander course. Posted to 16C4I Battalion where I took charge of the routine, training and soldiering proficiency of my men to ensure operational readiness at all times",
+      "I enlisted in the army when I was 18. I graduated top 5 out of >50 cadets in the Reconnaissance Commander Course before getting posted to 16C4I batallion, where I took charge of the routine, training and soldiering proficiency of my men to ensure operational readiness at all times ",
     buttonText: "",
     link: "https://www.mindef.gov.sg/web/portal/army/our-forces/formations/formations-detail/army-intelligence/army-intelligence",
     date: "Apr 2019 - Feb 2021",

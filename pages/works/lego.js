@@ -15,17 +15,18 @@ const Project = () => (
       </Title>
       <WorkImage src="/images/works/legothumbnail.jpg" alt="lego" />
       <P>
-        Wrote Python scripts on RaspberryPi to capture and crop images using
+        During my summer break in 2022, I interned at Nullspace Robotics, a robotics and programming enrichment centre
+        for young students. As part of the software required for an automated lego pieces sorter project, I
+        wrote Python scripts to capture and crop images using
         object motion detection and bounding box image processing, creating a
         Lego pieces database containing 6000 images across 7 classes.
         <br />
         <br />
-        Built and trained image classification CNN model for automated Lego
-        pieces sorter using Tensorflow, achieving 93% testing accuracy.
+        Afterwards, I built and trained image classification CNN model using Tensorflow, achieving 93% testing accuracy.
         <br />
         <br />
-        Integrated model with livestream from RaspberryPi camera to classify
-        lego pieces in realtime.
+        Finally, by integrating the Tensorflow model with a live feed from a RaspberryPi camera, it could classify
+        lego pieces in realtime to a high degree of accuracy. You can check out the source code and preview in the link below! 
       </P>
       <br />
         <Flex>
