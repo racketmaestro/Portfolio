@@ -4,7 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import ARImg from '../public/images/works/ar-project-thumbnail.jpg'
 import LegoImg from '../public/images/works/legothumbnail.jpg'
-import WebImg from '../public/images/works/portfolio-website.jpg'
+import WebImg from '../public/icons/react-icon-3.jpg'
 
 const Works = () => (
   <Layout title="Works">
@@ -20,7 +20,7 @@ const Works = () => (
         </Heading>
       </Section>
 
-      <SimpleGrid columns={[1, 1, 1]} gap={6}>
+      <SimpleGrid columns={[1, 1, 1 ]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem
             id="lego"

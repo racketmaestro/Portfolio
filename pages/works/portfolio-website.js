@@ -38,7 +38,7 @@ const Project = () => (
         <br />
         <br />
         
-        This webstie was built with: 
+        This website was built with: 
         <br /><br />
         <List spacing={2}>
           <ListItem>
