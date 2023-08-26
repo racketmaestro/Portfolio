@@ -1,7 +1,7 @@
 let timelineElements = [
   {
     id: 0,
-    title: "Incoming Summer Intern",
+    title: "Software Development Intern",
     location: "Health Data Insight, Cambridge, United Kingdom",
     description: "",
     buttonText: "",
@@ -14,7 +14,7 @@ let timelineElements = [
     title: "MEng Biomedical Engineering Undergraduate",
     location: "Imperial College London",
     description:
-      "Year 1: 79.25%, Dean's List \n Year 2: 80.87%, Dean's List",
+      "Dean's List for Year 1 (79.25%) and Year 2 (80.87%)",
     buttonText: "",
     link: "https://www.imperial.ac.uk/study/courses/undergraduate/biomedical-engineering/",
     date: "Oct 2021 - Present",
