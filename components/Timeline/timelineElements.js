@@ -14,7 +14,7 @@ let timelineElements = [
     title: "MEng Biomedical Engineering Undergraduate",
     location: "Imperial College London",
     description:
-      "Current Grade: 79.25%",
+      "Year 1: 79.25%, Dean's List \n Year 2: 80.87%, Dean's List",
     buttonText: "",
     link: "https://www.imperial.ac.uk/study/courses/undergraduate/biomedical-engineering/",
     date: "Oct 2021 - Present",

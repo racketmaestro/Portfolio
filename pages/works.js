@@ -15,63 +15,54 @@ const Works = () => (
 
       <Section delay={0.2}>
         <Divider my={6} />
-        <Heading as="h3" fontSize='2xl' mb={4}>
+        {/* <Heading as="h3" fontSize='2xl' mb={4}>
           Internship Projects
-        </Heading>
+        </Heading> */}
       </Section>
 
-      <SimpleGrid columns={[1, 1, 1 ]} gap={6}>
-        <Section delay={0.3}>
-          <WorkGridItem
-            id="lego"
-            title="Lego motion detection and classification"
-            thumbnail={LegoImg}
-          >
-            Machine Learning CNN model built on RaspberryPi during my internship
-            at Nullspace Robotics, Singapore
-          </WorkGridItem>
-        </Section>
-      </SimpleGrid>
+  <SimpleGrid columns={[2, 2, 2]} gap={8}>
+    {/* <Section delay={0.3}>
+      <WorkGridItem
+        id="hdi-internship"
+        title="Mobicare"
+        thumbnail={LegoImg}
+      >
+        Machine Learning CNN model built on RaspberryPi during my internship
+        at Nullspace Robotics, Singapore
+      </WorkGridItem>
+    </Section> */}
+    <Section delay={0.3}>
+      <WorkGridItem
+        id="lego"
+        title="Lego motion detection and classification"
+        thumbnail={LegoImg}
+      >
+        Machine Learning CNN model built on RaspberryPi during my internship
+        at Nullspace Robotics, Singapore
+      </WorkGridItem>
+    </Section>
+    <Section delay={0.3}>
+      <WorkGridItem
+        id="ar-project"
+        title="Augmented Reality in Unity"
+        thumbnail={ARImg}
+      >
+        Building AR game in Unity to enhance learning experience for children with cerebral palsy.
+        In collaboration with PACE Centre.
+      </WorkGridItem>
+    </Section>
+    <Section delay={0.3}>
+      <WorkGridItem
+        id="portfolio-website"
+        title="React Portfolio Website"
+        thumbnail={WebImg}
+      >
+        This website you are browsing through right now! A personal portfolio project to showcase my works and experience.
+      </WorkGridItem>
+    </Section>
+  </SimpleGrid>
+</Container>
 
-      <Section delay={0.2}>
-        <Divider my={6} />
-        <Heading as="h3" fontSize='2xl' mb={4}>
-          University Projects
-        </Heading>
-      </Section>
-
-      <SimpleGrid columns={[1, 1, 1]} gap={6}>
-        <Section delay={0.3}>
-          <WorkGridItem
-            id="ar-project"
-            title="Augmented Reality in Unity"
-            thumbnail={ARImg}
-          >
-            Building AR game in Unity to enhance learning experience for children with cerebral palsy.
-            In collaboration with PACE Centre.
-          </WorkGridItem>
-        </Section>
-      </SimpleGrid>
-
-      <Section delay={0.2}>
-        <Divider my={6} />
-        <Heading as="h3" fontSize='2xl' mb={4}>
-          Personal Projects
-        </Heading>
-      </Section>
-
-      <SimpleGrid columns={[1, 1, 1]} gap={6}>
-        <Section delay={0.3}>
-          <WorkGridItem
-            id="portfolio-website"
-            title="React Portfolio Website"
-            thumbnail={WebImg}
-          >
-            This website you are browsing through right now! A personal portfolio project to showcase my works and experience.
-          </WorkGridItem>
-        </Section>
-      </SimpleGrid>
-    </Container>
   </Layout>
 )
 

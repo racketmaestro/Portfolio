@@ -6,6 +6,26 @@ export default function softwareSkillsList() {
       image: '/icons/python-icon.png'
     },
     {
+      name: 'Cosmos DB',
+      description: 'Databases',
+      image: '/icons/cosmosdb.jpg'
+    },
+    {
+      name: 'Azure',
+      description: 'Cloud Platform',
+      image: '/icons/azure.jpg'
+    },
+    {
+      name: 'node.js',
+      description: 'Server Scripting',
+      image: '/icons/node-js.png'
+    },
+    {
+      name: 'Swift',
+      description: 'iOS Development',
+      image: '/icons/swift.png'
+    },
+    {
       name: 'Matlab',
       description: 'Programming',
       image: '/icons/matlab-icon.png'

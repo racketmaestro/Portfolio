@@ -21,8 +21,7 @@ export default function AboutMe() {
             mechanics, electronics, software, design engineering and medical
             science. <br />
             <br /> I proactively develop my software skills and aspire to
-            augment my engineering projects with smart software. Currently, I am
-            picking up Frontend Development skills as I build this personal portfolio website!<br />
+            augment my engineering projects with smart software.<br />
             <br />
           </Text>
         </VStack>
