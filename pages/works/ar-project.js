@@ -20,11 +20,11 @@ const Project = () => (
         As the Lead Developer of a 10-member team in my second-year design engineering project, 
         I had the privilege of working in collaboration with a charity that supports children with neurodisabilities. 
         Specifically, we aimed to create an interactive and inclusive storytelling game that not only provides an educational 
-        experience but also facilitates the motor and cognitive skills development of children with cerebral palsy (CP). 
+        experience but also facilitates the motor and cognitive skills development of children with cerebral palsy.
         <br />
         <br />
         To achieve this, I learnt how to use Unity Engine and Vuforia, an industry-leading augmented reality SDK, 
-        to create an interactive and immersive game experience. 
+        to create an interactive and immersive Augmented Reality game experience. 
         I wrote efficient C# scripts to program the game and streamline its development process, 
         ultimately resulting in significant time savings. 
         As the Lead Developer, I coordinated and supervised
@@ -33,10 +33,15 @@ const Project = () => (
         <br />
         <br />
         The game involved placing image targets around the classroom, and the student will have a
-         tablet mounted to a wheelchair. During the game, the dialogue will prompt the student to search for the correct image target,
-        therefore they will need to move to collect it. This results in a 3D model of different habitats being projected onto the image target,
-         immersing children in a captivating world of animals as they complete unique activities.
-    
+         tablet mounted to a wheelchair. During the game, the dialogue will prompt the student to search for the correct image target.
+          By directing the camera towards the 
+        correct target, 3D model of different animals and habitats are projected onto the image target,
+         immersing children in a captivating world of animals as they complete unique activities. 
+         <br />
+         <br />
+         Overall, it was a rewarding experience that underscored the importance of creating inclusive 
+         and accessible educational tools for all children.
+
 
       </P>
       <br />

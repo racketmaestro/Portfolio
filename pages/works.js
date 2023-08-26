@@ -44,7 +44,7 @@ const Works = () => (
     <Section delay={0.3}>
       <WorkGridItem
         id="ar-project"
-        title="Augmented Reality in Unity"
+        title="Augmented Reality for Inclusive Learning"
         thumbnail={ARImg}
       >
         Building AR game in Unity to enhance learning experience for children with cerebral palsy.
