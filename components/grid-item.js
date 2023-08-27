@@ -21,28 +21,46 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
   </Box>
 )
 
-export const WorkGridItem = ({ children, id, title, thumbnail }) => (
-  <Box w="100%" textAlign='center'>
+// export const WorkGridItem = ({ children, id, title, thumbnail }) => (
+//   <Box w="100%" textAlign='center'>
+//     <NextLink href={`/works/${id}`} passHref scroll={false}>
+//       <LinkBox cursor="pointer">
+//         <Image
+//           src={thumbnail}
+//           alt={title}
+//           className="grid-item-thumbnail"
+//           placeholder="blur"
+//           height = '580'
+//           width = '800'
+//         />
+//         <LinkOverlay href={`/works/${id}`}>
+//           <Text mt={2} fontSize={20}>
+//             {title}
+//           </Text>
+//         </LinkOverlay>
+//         <Text fontSize={14}>{children}</Text>
+//       </LinkBox>
+//     </NextLink>
+//   </Box>
+// )
+export const WorkGridItem = ({ children, id, title, readingTime }) => (
+  <Box w="100%" textAlign='left' p={5} borderWidth={1} borderRadius="md" borderColor="gray.200">
     <NextLink href={`/works/${id}`} passHref scroll={false}>
       <LinkBox cursor="pointer">
-        <Image
-          src={thumbnail}
-          alt={title}
-          className="grid-item-thumbnail"
-          placeholder="blur"
-          height = '580'
-          width = '800'
-        />
         <LinkOverlay href={`/works/${id}`}>
-          <Text mt={2} fontSize={20}>
+          <Text fontSize={20} fontWeight="bold">
             {title}
           </Text>
         </LinkOverlay>
         <Text fontSize={14}>{children}</Text>
+        <Text fontSize={12} color="gray.500" mt={2}>{readingTime} min</Text>
       </LinkBox>
     </NextLink>
   </Box>
 )
+
+
+
 
 export const GridItemStyle = () => (
   <Global
