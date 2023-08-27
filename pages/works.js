@@ -47,6 +47,16 @@ const Works = () => (
         </Section>
         <Section delay={0.3}>
           <WorkGridItem
+            id="geojson-to-imdf"
+            title="Creating Apple Indoor Maps Data Format using Geojsons and python"
+            // thumbnail={ARImg}
+            readingTime={3}
+          >
+            Desc
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem
             id="portfolio-website"
             title="React Portfolio Website"
             readingTime={1}

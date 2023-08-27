@@ -1,19 +1,15 @@
-import { Box, VStack, HStack, Text, Link, Icon, useColorModeValue } from '@chakra-ui/react';
+import { Box, VStack, HStack, Text, Link, Icon } from '@chakra-ui/react';
 import { School, Work } from '@material-ui/icons';
-
-
-
 
 const TimelineElement = ({ title, location, description, link, date, icon }) => {
     const iconColor = icon === 'Work' ? 'blue.500' : 'orange.500';
     const IconComponent = icon === 'Work' ? Work : School;
-    const bgColor = useColorModeValue('gray.100', 'gray.700');
   
     return (
         <HStack spacing={4} mb={6}>
           <Icon as={IconComponent} color={iconColor} boxSize={10} />
           <VStack align="start">
-            <Box p={4} borderRadius="md" bgColor={bgColor} width="100%">
+          <Box w="100%" textAlign='left' p={5} borderWidth={1} borderRadius="md" borderColor="gray.200">
               <Text fontWeight="bold" fontSize="xl">
                 {title}
               </Text>

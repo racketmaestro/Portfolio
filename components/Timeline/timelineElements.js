@@ -1,6 +1,13 @@
 let timelineElements = [
   {
-    id: 0,
+    title: 'Lead, Google Developer Student Club',
+    location: 'Imperial College London',
+    description: `Leading a university-based club for students interested in technologies and programming`,
+    buttonText: '',
+    date: 'Aug 2023 - Present',
+    icon: 'School'
+  },
+  {
     title: 'Software Development Intern',
     location: 'Health Data Insight, Cambridge, United Kingdom',
     description: `
@@ -12,7 +19,6 @@ let timelineElements = [
     icon: 'Work'
   },
   {
-    id: 1,
     title: 'MEng Biomedical Engineering Undergraduate',
     location: 'Imperial College London',
     description: "Dean's List for Year 1 (79.25%) and Year 2 (80.87%)",
@@ -22,7 +28,6 @@ let timelineElements = [
     icon: 'School'
   },
   {
-    id: 2,
     title: 'Intern',
     location: 'Nullspace Robotics, Singapore',
     description: `Developed a Raspberry Pi application using Tensorflow and Python to detect and captures images of Lego
@@ -33,7 +38,6 @@ let timelineElements = [
     icon: 'Work'
   },
   {
-    id: 3,
     title: 'Project Intern',
     location: 'Boston Scientific, Singapore',
     description:
@@ -44,7 +48,6 @@ let timelineElements = [
     icon: 'Work'
   },
   {
-    id: 4,
     title: 'Reconnaissance Commander',
     location: 'Singapore Armed Forces',
     description:
@@ -55,7 +58,6 @@ let timelineElements = [
     icon: 'Work'
   },
   {
-    id: 5,
     title: 'Student',
     location: 'Raffles Institution, Singapore',
     description:
@@ -67,7 +69,6 @@ let timelineElements = [
     icon: 'school'
   },
   {
-    id: 6,
     title: 'Student',
     location: "St Joseph's Institution, Singapore",
     description:
