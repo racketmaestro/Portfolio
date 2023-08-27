@@ -33,7 +33,7 @@ let timelineElements = [
     buttonText: "Company Website",
     link: "https://sg.nullspace.co/",
     date: "Jul 2022 - Sep 2022",
-    icon: "work",
+    icon: "Work",
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ let timelineElements = [
     buttonText: "Company Website",
     link: "https://www.bostonscientific.com/en-US/Home.html",
     date: "Feb 2021 - Aug 2021",
-    icon: "work",
+    icon: "Work",
   },
   {
     id: 4,
@@ -55,7 +55,7 @@ let timelineElements = [
     buttonText: "",
     link: "https://www.mindef.gov.sg/web/portal/army/our-forces/formations/formations-detail/army-intelligence/army-intelligence",
     date: "Apr 2019 - Feb 2021",
-    icon: "work",
+    icon: "Work",
   },
   {
     id: 5,
