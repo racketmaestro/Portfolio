@@ -2,9 +2,6 @@ import { Container, Heading, SimpleGrid, Divider, Text, Spacer} from '@chakra-ui
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
-// import ARImg from '../public/images/works/ar-project-thumbnail.jpg'
-// import LegoImg from '../public/images/works/legothumbnail.jpg'
-// import WebImg from '../public/icons/react-icon-3.jpg'
 
 const Works = () => (
   <Layout title="Works">
@@ -17,6 +14,15 @@ const Works = () => (
       </Text>
       <Divider />
       <SimpleGrid columns={[1, 1, 1]} gap={2} mt={10}>
+      <Section delay={0.3}>
+          <WorkGridItem
+            id="hdi-internship"
+            title="Tackling workspace inefficiencies in the NHS"
+            readingTime={2}
+          >
+            Mobile app that leverages precise indoor positioning systems to enable spatial monitoring, asset tracking and indoor navigation
+          </WorkGridItem>
+        </Section>
         <Section delay={0.3}>
           <WorkGridItem
             id="lego"

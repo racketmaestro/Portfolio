@@ -7,12 +7,12 @@ export default function softwareSkillsList() {
     },
     {
       name: 'Cosmos DB',
-      description: 'Databases',
+      description: 'Database',
       image: '/icons/cosmosdb.jpg'
     },
     {
       name: 'Azure',
-      description: 'Cloud Platform',
+      description: 'Cloud',
       image: '/icons/azure.jpg'
     },
     {
@@ -33,30 +33,22 @@ export default function softwareSkillsList() {
     {
       name: 'JavaScript',
       description: 'Web development',
-      link: '',
-      // type: 'development',
       image: '/icons/javascript-icon.png'
     },
     {
       name: 'C#',
       description: 'Scripting',
-      link: '',
-      type: 'development',
       image: '/icons/c-sharp-icon.png'
     },
     {
       name: 'React',
       description: 'Web development',
-      link: 'https://reactjs.org/',
-      // type: 'development',
       image: '/icons/react-icon.png'
     },
 
     {
       name: 'Unity',
       description: '3D Realtime Engine',
-      link: '',
-      type: 'development',
       image: '/icons/unity-icon.png'
     },
     {

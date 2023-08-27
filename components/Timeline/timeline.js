@@ -21,7 +21,7 @@ const TimelineElement = ({ title, location, description, link, date, icon }) => 
                 {location}
               </Link>
               <Text mt={2}>{description}</Text>
-              <Text fontSize="sm" color="gray.500">
+              <Text fontSize="sm" color="gray.500" mt={4}>
                 {date}
               </Text>
             </Box>

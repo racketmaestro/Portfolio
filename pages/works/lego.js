@@ -11,15 +11,14 @@ const Project = () => (
   <Layout>
     <Container>
       <Title>
-        Lego recognition <Badge>2022</Badge>
+        Lego Machine Learning Classification in realtime <Badge>2022</Badge>
       </Title>
-      <WorkImage src="/images/works/legothumbnail.jpg" alt="lego" />
+      {/* <WorkImage src="/images/works/legothumbnail.jpg" alt="lego" /> */}
       <P>
         During my summer break in 2022, I interned at Nullspace Robotics, a robotics and programming enrichment centre
         for young students. As part of the software required for an automated lego pieces sorter project, I
         wrote Python scripts to capture and crop images using
-        object motion detection and bounding box image processing, creating a
-        Lego pieces database containing 6000 images across 7 classes.
+        object motion detection and bounding box image processing.
         <br />
         <br />
         Afterwards, I built and trained image classification CNN model using Tensorflow, achieving 93% testing accuracy.
