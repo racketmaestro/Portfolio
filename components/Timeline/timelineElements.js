@@ -3,7 +3,11 @@ let timelineElements = [
     id: 0,
     title: "Software Development Intern",
     location: "Health Data Insight, Cambridge, United Kingdom",
-    description: "",
+    description: `
+  Developed a mobile application using Swift, leveraging precise indoor positioning systems to facilitate real-time
+  spatial monitoring, asset tracking, and indoor navigation within a hospital. Developed backend services using Node.js 
+  and Serverless Framework on Azure, enabling mobile app CRUD operations to Cosmos DB via REST API.
+`,
     buttonText: "",
     link: "https://healthdatainsight.org.uk/",
     date: "Jul 2023 - Sep 2023",

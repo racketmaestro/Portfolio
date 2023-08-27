@@ -1,4 +1,5 @@
 import { Box } from '@chakra-ui/react';
+import Timeline from './timeline';
 import timelineElements from './timelineElements';
 
 const BioTimeline = () => {
