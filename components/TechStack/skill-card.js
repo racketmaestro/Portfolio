@@ -8,13 +8,10 @@ import {
   Image,
   Skeleton
 } from '@chakra-ui/react'
-import { usePalette } from 'react-palette'
 import { motion } from 'framer-motion'
 
 const Card = ({ name, image, description }) => {
-  const { data, loading } = usePalette(image)
-  const textColor = useColorModeValue('black', 'white')
-  const borderColor = useColorModeValue('gray.100', 'gray.700')
+  const borderColor = useColorModeValue('white.100', 'gray.700')
 
   return (
     <motion.div whileHover={{ y: -5 }}>
@@ -23,7 +20,7 @@ const Card = ({ name, image, description }) => {
         // bg='#E2F6FE'
         rounded="xl"
         borderWidth="1px"
-        borderColor={borderColor}
+        borderColor="gray.300"
         w="100%"
         textAlign="left"
         align="flex-start"
@@ -39,7 +36,6 @@ const Card = ({ name, image, description }) => {
           boxShadow="inset 0 0 1px 1px rgba(0, 0, 0, 0.015)"
         >
           <Box
-            bg={data.lightVibrant}
             position="absolute"
             top={0}
             bottom={0}
@@ -47,17 +43,13 @@ const Card = ({ name, image, description }) => {
             right={0}
             opacity={0.25}
           ></Box>
-          {loading ? (
-            <Skeleton height={26} width={26} rounded="md" />
-          ) : (
-            <Image
+           <Image
               src={image}
               height={26}
               width={26}
               layout="fixed"
               rounded="md"
             />
-          )}
         </Box>
         <VStack
           align="start"
