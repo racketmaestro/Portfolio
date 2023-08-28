@@ -17,23 +17,13 @@ const Works = () => (
       <Section delay={0.3}>
           <WorkGridItem
             id="hdi-internship"
-            title="Tackling workspace inefficiencies in the NHS"
+            title="Using precise indoor positioning systems to alleviate workspace inefficiencies in the NHS"
             readingTime={2}
           >
             Mobile app that leverages precise indoor positioning systems to enable spatial monitoring, asset tracking and indoor navigation
           </WorkGridItem>
         </Section>
-        <Section delay={0.3}>
-          <WorkGridItem
-            id="lego"
-            title="Lego motion detection and classification"
-            // thumbnail={LegoImg}
-            readingTime={2}
-          >
-            Machine Learning CNN model built on RaspberryPi during my internship
-            at Nullspace Robotics, Singapore
-          </WorkGridItem>
-        </Section>
+ 
         <Section delay={0.3}>
           <WorkGridItem
             id="ar-project"
@@ -48,11 +38,22 @@ const Works = () => (
         <Section delay={0.3}>
           <WorkGridItem
             id="geojson-to-imdf"
-            title="Creating Apple Indoor Maps Data Format using Geojsons and python"
+            title="geojson-2-imdf transformer"
             // thumbnail={ARImg}
             readingTime={3}
           >
-            Desc
+            A python-based automation tool designed to streamline conversion of geojsons into Apple's Indoor Mapping Data Format (IMDF)
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem
+            id="lego"
+            title="Lego motion detection and classification"
+            // thumbnail={LegoImg}
+            readingTime={2}
+          >
+            Machine Learning CNN model built on RaspberryPi during my internship
+            at Nullspace Robotics, Singapore
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
