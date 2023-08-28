@@ -1,10 +1,9 @@
 import { Box, VStack, HStack, Text, Link, Icon } from '@chakra-ui/react';
-import { School, Work } from '@material-ui/icons';
+import { FaBriefcase, FaSchool } from 'react-icons/fa';
 
 const TimelineElement = ({ title, location, description, link, date, icon }) => {
-    const iconColor = icon === 'Work' ? 'blue.500' : 'orange.500';
-    const IconComponent = icon === 'Work' ? Work : School;
-  
+  const iconColor = icon === 'Work' ? 'blue.500' : 'orange.500';
+  const IconComponent = icon === 'Work' ? FaBriefcase : FaSchool;
     return (
         <HStack spacing={4} mb={6}>
           <Icon as={IconComponent} color={iconColor} boxSize={10} />

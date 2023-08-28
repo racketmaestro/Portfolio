@@ -1,10 +1,9 @@
-import { Container, Badge, Link, Spacer, Flex } from '@chakra-ui/react'
+import { Container, Badge, Link, Spacer, Flex, Image} from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraphs'
 import Layout from '../../components/layouts/article'
 export { getServerSideProps } from '../../components/chakra'
-import { Avatar } from '@material-ui/core'
 import { Stack } from '@chakra-ui/react'
 
 const Project = () => (
@@ -42,16 +41,16 @@ const Project = () => (
         <Flex pt={5}>
           <Meta>Platform</Meta>
           <Spacer />
-          <Avatar src="/icons/raspberrypi-icon.png" title= 'RaspberryPi' />
+          <Image src="/icons/raspberrypi-icon.png" alt="opencv" boxSize="48px" borderRadius="full" />
         </Flex>
         <Flex pt={5}>
           <Meta>Stack</Meta>
           <Spacer />
           <Stack direction="row" spacing={2}>
-            <Avatar src="/icons/python-icon-2.png" title="Python" />
-            <Avatar src="/icons/tensorflow-icon.png" title="Tensorflow" />
-            <Avatar src="/icons/opencv-icon.png" title="OpenCV" />
-            <Avatar src="/icons/linux-icon.png" title="Linux" />
+            <Image src="/icons/python-icon-2.png" alt="Python" boxSize="48px" borderRadius="full" />
+            <Image src="/icons/tensorflow-icon.png" alt="tensorflow" boxSize="48px" borderRadius="full" />
+            <Image src="/icons/opencv-icon.png" alt="opencv" boxSize="48px" borderRadius="full" />
+            <Image src="/icons/linux-icon.png" alt="Linux" boxSize="48px" borderRadius="full" />
           </Stack>
         </Flex>
       <br />

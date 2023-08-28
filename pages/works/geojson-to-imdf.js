@@ -1,10 +1,9 @@
-import { Container, Badge, Link, Spacer, Flex } from '@chakra-ui/react'
+import { Container, Badge, Link, Spacer, Flex, Image } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraphs'
 import Layout from '../../components/layouts/article'
 export { getServerSideProps } from '../../components/chakra'
-import { Avatar } from '@material-ui/core'
 import { Stack } from '@chakra-ui/react'
 
 const Project = () => (
@@ -50,7 +49,7 @@ const Project = () => (
           <Meta>Stack</Meta>
           <Spacer />
           <Stack direction="row" spacing={2}>
-            <Avatar src="/icons/python-icon-2.png" title="Python" />
+            <Image src="/icons/python-icon-2.png" alt="Python" boxSize="48px" borderRadius="full" />
           </Stack>
         </Flex>
       <br />

@@ -6,14 +6,14 @@ import {
   Flex,
   List,
   ListItem,
-  ListIcon
+  ListIcon,
+  Image
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraphs'
 import Layout from '../../components/layouts/article'
 export { getServerSideProps } from '../../components/chakra'
-import { Avatar } from '@material-ui/core'
 import { Stack } from '@chakra-ui/react'
 import {SiAccenture} from "react-icons/si"
 import { SlideFade } from '@chakra-ui/react'
@@ -71,17 +71,16 @@ const Project = () => (
       <Flex pt={5}>
         <Meta>Deployment Platform</Meta>
         <Spacer />
-        <Avatar src="/icons/vercel-icon.png" title="Vercel" />
+        <Image src="/icons/vercel-icon.png" title="Vercel" boxSize="48px" borderRadius="full" />
       </Flex>
       <Flex pt={5}>
         <Meta>Stack</Meta>
         <Spacer />
         <Stack direction="row" spacing={2}>
-          <Avatar src="/icons/threejs-icon.png" title="Threejs" />
-          <Avatar src="/icons/react-icon-2.png" title="React" />
-          <Avatar src="/icons/chakra-ui-icon.png" title="ChakraUI" />
-          <Avatar src="/icons/linux-icon.png" title="Linux" />
-          <Avatar src="/icons/javascript-icon.png" title="JavaScript" />
+          <Image src="/icons/threejs-icon.png" title="Threejs" boxSize="48px" borderRadius="full" />
+          <Image src="/icons/react-icon-2.png" title="React" boxSize="48px" borderRadius="full"/>
+          <Image src="/icons/linux-icon.png" title="Linux" boxSize="48px" borderRadius="full"/>
+          <Image src="/icons/javascript-icon.png" title="JavaScript" boxSize="48px" borderRadius="full"/>
         </Stack>
       </Flex>
       <br />

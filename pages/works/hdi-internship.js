@@ -1,11 +1,9 @@
-import { Container, Badge, Link, Spacer, Flex, Stack} from '@chakra-ui/react'
+import { Container, Badge, Link, Spacer, Flex, Stack, Image} from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraphs'
 import Layout from '../../components/layouts/article'
 export { getServerSideProps } from '../../components/chakra'
-import { Avatar } from '@material-ui/core'
-import { SlideFade } from '@chakra-ui/react'
 
 const Project = () => (
   <Layout>
@@ -34,14 +32,14 @@ const Project = () => (
       <Flex pt={5}>
         <Meta>Platform</Meta>
         <Spacer />
-        {/* <Avatar src="/icons/android-icon.png" title="Android" /> */}
       </Flex>
       <Flex pt={5}>
         <Meta>Stack</Meta>
         <Spacer />
         <Stack direction="row" spacing={2}>
-          <Avatar src="/icons/azure.jpg" title="Azure" />
-          <Avatar src="/icons/cosmosdb.png" title="Unity" />
+        {/* <Image src="/icons/python-icon-2.png" alt="Python" boxSize="48px" borderRadius="full" />
+        <Image src="/icons/python-icon-2.png" alt="Python" boxSize="48px" borderRadius="full" /> */}
+          
         </Stack>
       </Flex>
       <br />
