@@ -37,16 +37,6 @@ const Works = () => (
         </Section>
         <Section delay={0.3}>
           <WorkGridItem
-            id="geojson-to-imdf"
-            title="geojson-2-imdf transformer"
-            // thumbnail={ARImg}
-            readingTime={3}
-          >
-            A python-based automation tool designed to streamline conversion of geojsons into Apple's Indoor Mapping Data Format (IMDF)
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.3}>
-          <WorkGridItem
             id="lego"
             title="Lego motion detection and classification"
             // thumbnail={LegoImg}
