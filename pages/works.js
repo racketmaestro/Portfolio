@@ -17,10 +17,10 @@ const Works = () => (
       <Section delay={0.3}>
           <WorkGridItem
             id="hdi-internship"
-            title="Using precise indoor positioning systems to alleviate workspace inefficiencies in the NHS"
+            title="MobiCare"
             readingTime={2}
           >
-            Mobile app that leverages precise indoor positioning systems to enable spatial monitoring, asset tracking and indoor navigation
+            Mobile app that leverages precise indoor positioning systems to enable spatial monitoring applications, asset tracking and pathfinding within hospital environments
           </WorkGridItem>
         </Section>
  

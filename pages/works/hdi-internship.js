@@ -15,8 +15,20 @@ const Project = () => (
       <P>
         <br />
         <br />
-        Ending in Sep 2023
+        Mobicare is a POC project developed by me and 4 fellow interns at Health Data Insight. It is an iOS mobile app that implements indoor positioning system, 
+        designed to enhance hospital efficiency and user experience within the hospital.
 
+        Aiming to address the common challenges of misplaced equipment and lost individuals, 
+        the system offers precise indoor navigation services and asset tracking capabilities. 
+        The implementation of indoor positioning and space visualization sets the foundation for 
+        further digital innovations of space-aware applications within hospital settings  
+
+
+        <br />
+        <br />
+        Official write up will be published on the HDI website soon!
+        <br />
+        <br />
       </P>
       
       <Flex>
@@ -24,7 +36,7 @@ const Project = () => (
         <Spacer />
         <Link
           target="_blank"
-          href="">
+          href="https://healthdatainsight.org.uk/">
           Writeup
         </Link>
         <ExternalLinkIcon></ExternalLinkIcon>
@@ -32,15 +44,17 @@ const Project = () => (
       <Flex pt={5}>
         <Meta>Platform</Meta>
         <Spacer />
+        <Image src="/icons/apple.png" alt="nodejs" boxSize="48px" borderRadius="full" />
       </Flex>
       <Flex pt={5}>
         <Meta>Stack</Meta>
         <Spacer />
         <Stack direction="row" spacing={2}>
-        {/* <Image src="/icons/python-icon-2.png" alt="Python" boxSize="48px" borderRadius="full" />
-        <Image src="/icons/python-icon-2.png" alt="Python" boxSize="48px" borderRadius="full" /> */}
-          
-        </Stack>
+            <Image src="/icons/swift.png" alt="Swift" boxSize="48px" borderRadius="full" />
+            <Image src="/icons/azure.jpg" alt="Azure" boxSize="48px" borderRadius="full" />
+            <Image src="/icons/node-js.png" alt="nodejs" boxSize="48px" borderRadius="full" />
+
+          </Stack>
       </Flex>
       <br />
     </Container>
